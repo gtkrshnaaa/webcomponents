@@ -1,0 +1,20 @@
+.head {
+    display: flex;
+    flex-direction: row;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border: 1px black solid;
+    padding: 20px;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
