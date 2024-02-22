@@ -37,8 +37,6 @@
     border: none;
     font-size: larger;
     cursor: pointer;
-    display: flex;
-    flex-direction: column;
 }
 
 .navbar-mob {
@@ -80,8 +78,12 @@
         margin-bottom: 1%;
     }
 
-    .nav-btn {
+    button.nav-btn {
         font-size: small;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .nav-btn .uil {
