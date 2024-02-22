@@ -37,6 +37,7 @@
     border: none;
     font-size: larger;
     cursor: pointer;
+    transition: background-color 0.8s, color 0.3s;
 }
 
 .navbar-mob {
